@@ -1,0 +1,9 @@
+#include <stdio.h>
+#define LEN_INPUT 1000001
+
+int main(void) {
+    char s1[LEN_INPUT]; //1 ≤ str의 길이 ≤ 1,000,000
+    scanf("%s", s1); // 문자열 str 입력
+    printf(s1); // 뮨자열 str 출력
+    return 0;    
+}
