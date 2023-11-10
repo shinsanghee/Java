@@ -1,0 +1,10 @@
+import java.util.Scanner;
+
+public class Solution {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String a = sc.next(); //문자열 변수 a 스캐너로 입력받음
+        String b = sc.next(); //문자열 변수 b 스캐너로 입력받음
+        System.out.println(a+b); //출력하기 
+    }
+}
