@@ -1,0 +1,14 @@
+// This code is written in C++ and not Python
+
+// Java equivalent code:
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int W = scanner.nextInt();
+        W <<= 1;
+        int len = (int) Math.sqrt(W);
+        System.out.println(len << 2);
+    }
+}
